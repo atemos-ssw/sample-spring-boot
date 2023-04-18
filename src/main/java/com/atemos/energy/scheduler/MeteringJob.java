@@ -2,8 +2,7 @@ package com.atemos.energy.scheduler;
 
 
 import java.net.URI;
-
-import javax.annotation.PostConstruct;
+ 
 
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
