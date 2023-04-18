@@ -1,0 +1,308 @@
+[INFO ] 2023-04-14 10:32:14.663 : c.a.e.EnergyCollectionApplication - Starting EnergyCollectionApplication using Java 17.0.6 with PID 10416 (C:\Users\admin\eclipse-workspace\EnergyCollection\target\classes started by admin in C:\Users\admin\eclipse-workspace\EnergyCollection)
+[INFO ] 2023-04-14 10:32:14.666 : c.a.e.EnergyCollectionApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-04-14 10:32:15.209 : o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-04-14 10:32:15.256 : o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+[INFO ] 2023-04-14 10:32:15.453 : o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2023-04-14 10:32:15.474 : o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 2023-04-14 10:32:15.700 :    o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2023-04-14 10:32:15.700 :   o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[INFO ] 2023-04-14 10:32:15.716 :   o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[INFO ] 2023-04-14 10:32:15.723 :      o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-04-14 10:32:15.724 :        o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2023-04-14 10:32:15.724 :         o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+[INFO ] 2023-04-14 10:32:15.803 :              o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-04-14 10:32:15.804 : o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1100 ms
+[INFO ] 2023-04-14 10:32:15.925 :            o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-04-14 10:32:15.979 :                    o.h.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+[INFO ] 2023-04-14 10:32:16.216 :         c.z.h.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-04-14 10:32:16.282 :             c.z.h.p.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@59baf2c7
+[INFO ] 2023-04-14 10:32:16.284 :         c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-04-14 10:32:16.316 :                    SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+[DEBUG] 2023-04-14 10:32:16.334 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@22aee519) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7c226095)
+[DEBUG] 2023-04-14 10:32:16.334 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7ea07516) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@30af23fd)
+[DEBUG] 2023-04-14 10:32:16.334 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@65fc8edc) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@a357c3e)
+[DEBUG] 2023-04-14 10:32:16.334 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7740b0ab) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3eb9c575)
+[DEBUG] 2023-04-14 10:32:16.334 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3f322610) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1e477944)
+[DEBUG] 2023-04-14 10:32:16.334 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6cf047cf) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1c92a549)
+[DEBUG] 2023-04-14 10:32:16.334 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@323e026d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1716c037)
+[DEBUG] 2023-04-14 10:32:16.334 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@79b63325) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@708769b7)
+[DEBUG] 2023-04-14 10:32:16.335 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@32e830a0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@135e49b2)
+[INFO ] 2023-04-14 10:32:16.775 : o.h.m.i.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: com.atemos.energy.dao.ACSensor (class must be instantiated by Interceptor)
+[INFO ] 2023-04-14 10:32:16.900 : o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-04-14 10:32:16.907 : o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-04-14 10:32:17.157 :      o.q.i.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2023-04-14 10:32:17.168 :    o.q.c.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2023-04-14 10:32:17.168 :          o.q.c.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+[INFO ] 2023-04-14 10:32:17.169 :              o.q.s.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2023-04-14 10:32:17.169 :          o.q.c.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2023-04-14 10:32:17.169 :      o.q.i.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[INFO ] 2023-04-14 10:32:17.169 :      o.q.i.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+[INFO ] 2023-04-14 10:32:17.169 :          o.q.c.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5d035ab6
+[WARN ] 2023-04-14 10:32:17.222 : o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-04-14 10:32:17.537 :      o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-04-14 10:32:17.555 :    o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2023-04-14 10:32:17.556 :   o.s.s.q.SchedulerFactoryBean - Starting Quartz Scheduler now
+[INFO ] 2023-04-14 10:32:17.556 :          o.q.c.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[INFO ] 2023-04-14 10:32:17.563 : c.a.e.EnergyCollectionApplication - Started EnergyCollectionApplication in 3.285 seconds (process running for 3.98)
+[ERROR] 2023-04-14 10:32:22.147 :              o.q.c.JobRunShell - Job DEFAULT.6da64b5bd2ee-3c15465b-c8d9-4d74-96e5-9c0c4aecbaa1 threw an unhandled Exception: 
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://192.168.0.10:3001/data": Connection refused: connect
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:804)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:421)
+	at com.atemos.energy.scheduler.MeteringJob.executeInternal(MeteringJob.java:44)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:279)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:384)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:406)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:75)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 6 common frames omitted
+[ERROR] 2023-04-14 10:32:22.155 :              o.q.c.ErrorLogger - Job (DEFAULT.6da64b5bd2ee-3c15465b-c8d9-4d74-96e5-9c0c4aecbaa1 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://192.168.0.10:3001/data": Connection refused: connect
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:804)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:421)
+	at com.atemos.energy.scheduler.MeteringJob.executeInternal(MeteringJob.java:44)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:279)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:384)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:406)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:75)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 6 common frames omitted
+[ERROR] 2023-04-14 10:32:32.057 :              o.q.c.JobRunShell - Job DEFAULT.6da64b5bd2ee-3c15465b-c8d9-4d74-96e5-9c0c4aecbaa1 threw an unhandled Exception: 
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://192.168.0.10:3001/data": Connection refused: connect
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:804)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:421)
+	at com.atemos.energy.scheduler.MeteringJob.executeInternal(MeteringJob.java:44)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:279)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:384)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:406)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:75)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 6 common frames omitted
+[ERROR] 2023-04-14 10:32:32.058 :              o.q.c.ErrorLogger - Job (DEFAULT.6da64b5bd2ee-3c15465b-c8d9-4d74-96e5-9c0c4aecbaa1 threw an exception.
+org.quartz.SchedulerException: Job threw an unhandled exception.
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:573)
+Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://192.168.0.10:3001/data": Connection refused: connect
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:804)
+	at org.springframework.web.client.RestTemplate.getForEntity(RestTemplate.java:421)
+	at com.atemos.energy.scheduler.MeteringJob.executeInternal(MeteringJob.java:44)
+	at org.springframework.scheduling.quartz.QuartzJobBean.execute(QuartzJobBean.java:75)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:202)
+	... 1 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:279)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:384)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:406)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:75)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 6 common frames omitted
+[INFO ] 2023-04-14 10:32:41.596 :            c.a.e.s.MeteringJob - <200 OK OK,SensorResponse(result=OK, message=-, _data_=ACSensor(id=0, LogicalId=logical-qhoznarsv9, CreatedTs=1.68143592E12, CreatedDate=2023-04-14 10:32:41, GroupId=1, ModuleId=0, PhaseVoltage=70.6618, LineVoltage=15.671558, VoltageCrestFactor=33.15501, PhaseCurrent=56.43871, CurrentCrestFactor=59.751812, ActivePower=30.570498, ReactivePower=57.70761, PowerFactor=32.17675, Frequency=67.94988, ThdPhaseVoltage=69.197075, ThdPhaseCurrent=16.326418, Temperature=2.4525597, VoltageHarmonics=42.116287, CurrentHarmonics=75.74377, ApparentPower=32.309902)),[X-Powered-By:"Express", Vary:"Origin, Accept-Encoding", Access-Control-Allow-Credentials:"true", Cache-Control:"no-cache", Pragma:"no-cache", Expires:"-1", X-Content-Type-Options:"nosniff", Content-Type:"application/json; charset=utf-8", Content-Length:"1084", ETag:"W/"43c-JHHJgEDa7LclUKPSx0gqHBZHq6Q"", Date:"Fri, 14 Apr 2023 01:32:41 GMT", Connection:"keep-alive", Keep-Alive:"timeout=5"]>
+[INFO ] 2023-04-14 10:32:41.596 :            c.a.e.s.MeteringJob - SensorResponse(result=OK, message=-, _data_=ACSensor(id=0, LogicalId=logical-qhoznarsv9, CreatedTs=1.68143592E12, CreatedDate=2023-04-14 10:32:41, GroupId=1, ModuleId=0, PhaseVoltage=70.6618, LineVoltage=15.671558, VoltageCrestFactor=33.15501, PhaseCurrent=56.43871, CurrentCrestFactor=59.751812, ActivePower=30.570498, ReactivePower=57.70761, PowerFactor=32.17675, Frequency=67.94988, ThdPhaseVoltage=69.197075, ThdPhaseCurrent=16.326418, Temperature=2.4525597, VoltageHarmonics=42.116287, CurrentHarmonics=75.74377, ApparentPower=32.309902))
+[DEBUG] 2023-04-14 10:32:41.610 :                        o.h.SQL - 
+    select
+        next value for acsensor_seq
+[DEBUG] 2023-04-14 10:32:41.627 :                        o.h.SQL - 
+    insert 
+    into
+        acsensor
+        (active_power, apparent_power, created_date, created_ts, current_crest_factor, current_harmonics, frequency, group_id, line_voltage, logical_id, module_id, phase_current, phase_voltage, power_factor, reactive_power, temperature, thd_phase_current, thd_phase_voltage, voltage_crest_factor, voltage_harmonics, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[INFO ] 2023-04-14 10:32:50.032 :            c.a.e.s.MeteringJob - <200 OK OK,SensorResponse(result=OK, message=-, _data_=ACSensor(id=0, LogicalId=logical-qhoznarsv9, CreatedTs=1.68143592E12, CreatedDate=2023-04-14 10:32:41, GroupId=1, ModuleId=0, PhaseVoltage=70.6618, LineVoltage=15.671558, VoltageCrestFactor=33.15501, PhaseCurrent=56.43871, CurrentCrestFactor=59.751812, ActivePower=30.570498, ReactivePower=57.70761, PowerFactor=32.17675, Frequency=67.94988, ThdPhaseVoltage=69.197075, ThdPhaseCurrent=16.326418, Temperature=2.4525597, VoltageHarmonics=42.116287, CurrentHarmonics=75.74377, ApparentPower=32.309902)),[X-Powered-By:"Express", Vary:"Origin, Accept-Encoding", Access-Control-Allow-Credentials:"true", Cache-Control:"no-cache", Pragma:"no-cache", Expires:"-1", X-Content-Type-Options:"nosniff", Content-Type:"application/json; charset=utf-8", Content-Length:"1084", ETag:"W/"43c-JHHJgEDa7LclUKPSx0gqHBZHq6Q"", Date:"Fri, 14 Apr 2023 01:32:50 GMT", Connection:"keep-alive", Keep-Alive:"timeout=5"]>
+[INFO ] 2023-04-14 10:32:50.033 :            c.a.e.s.MeteringJob - SensorResponse(result=OK, message=-, _data_=ACSensor(id=0, LogicalId=logical-qhoznarsv9, CreatedTs=1.68143592E12, CreatedDate=2023-04-14 10:32:41, GroupId=1, ModuleId=0, PhaseVoltage=70.6618, LineVoltage=15.671558, VoltageCrestFactor=33.15501, PhaseCurrent=56.43871, CurrentCrestFactor=59.751812, ActivePower=30.570498, ReactivePower=57.70761, PowerFactor=32.17675, Frequency=67.94988, ThdPhaseVoltage=69.197075, ThdPhaseCurrent=16.326418, Temperature=2.4525597, VoltageHarmonics=42.116287, CurrentHarmonics=75.74377, ApparentPower=32.309902))
+[DEBUG] 2023-04-14 10:32:50.034 :                        o.h.SQL - 
+    insert 
+    into
+        acsensor
+        (active_power, apparent_power, created_date, created_ts, current_crest_factor, current_harmonics, frequency, group_id, line_voltage, logical_id, module_id, phase_current, phase_voltage, power_factor, reactive_power, temperature, thd_phase_current, thd_phase_voltage, voltage_crest_factor, voltage_harmonics, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[INFO ] 2023-04-14 10:32:52.508 : o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2023-04-14 10:32:52.509 :          o.q.c.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2023-04-14 10:32:52.517 :      o.a.c.h.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-04-14 10:32:52.517 :        o.a.c.c.StandardService - Stopping service [Tomcat]
+[INFO ] 2023-04-14 10:32:52.520 :      o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-04-14 10:32:52.522 :      o.a.c.h.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-04-14 10:32:52.523 :   o.s.s.q.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2023-04-14 10:32:52.523 :          o.q.c.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[INFO ] 2023-04-14 10:32:52.523 :          o.q.c.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2023-04-14 10:32:52.524 :          o.q.c.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2023-04-14 10:32:52.524 : o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-04-14 10:32:52.526 :         c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-04-14 10:32:52.529 :         c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-04-14 10:33:45.135 : c.a.e.EnergyCollectionApplication - Starting EnergyCollectionApplication using Java 17.0.6 with PID 7552 (C:\Users\admin\eclipse-workspace\EnergyCollection\target\classes started by admin in C:\Users\admin\eclipse-workspace\EnergyCollection)
+[INFO ] 2023-04-14 10:33:45.137 : c.a.e.EnergyCollectionApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-04-14 10:33:45.512 : o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-04-14 10:33:45.555 : o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+[INFO ] 2023-04-14 10:33:45.714 : o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2023-04-14 10:33:45.732 : o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 2023-04-14 10:33:45.896 :    o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2023-04-14 10:33:45.897 :   o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+[INFO ] 2023-04-14 10:33:45.900 :   o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+[INFO ] 2023-04-14 10:33:45.908 :      o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-04-14 10:33:45.908 :        o.a.c.c.StandardService - Starting service [Tomcat]
+[INFO ] 2023-04-14 10:33:45.909 :         o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+[INFO ] 2023-04-14 10:33:45.976 :              o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-04-14 10:33:45.977 : o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 812 ms
+[INFO ] 2023-04-14 10:33:46.071 :            o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-04-14 10:33:46.104 :                    o.h.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+[INFO ] 2023-04-14 10:33:46.291 :         c.z.h.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-04-14 10:33:46.344 :             c.z.h.p.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3866c96e
+[INFO ] 2023-04-14 10:33:46.346 :         c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-04-14 10:33:46.371 :                    SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+[DEBUG] 2023-04-14 10:33:46.391 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@135e49b2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5bb97fe7)
+[DEBUG] 2023-04-14 10:33:46.391 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@10b87ff6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@63262071)
+[DEBUG] 2023-04-14 10:33:46.391 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2d4f67e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1282f784)
+[DEBUG] 2023-04-14 10:33:46.391 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@41167ded) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@13e1e816)
+[DEBUG] 2023-04-14 10:33:46.392 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@36238b12) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@33187485)
+[DEBUG] 2023-04-14 10:33:46.392 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@41938e1e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5d2e6f62)
+[DEBUG] 2023-04-14 10:33:46.392 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@77ff14ce) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@733fae8)
+[DEBUG] 2023-04-14 10:33:46.392 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5a8d676e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@74764622)
+[DEBUG] 2023-04-14 10:33:46.392 :    o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7ba06506) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@63dc3420)
+[INFO ] 2023-04-14 10:33:46.826 : o.h.m.i.EntityInstantiatorPojoStandard - HHH000182: No default (no-argument) constructor for class: com.atemos.energy.dao.ACSensor (class must be instantiated by Interceptor)
+[INFO ] 2023-04-14 10:33:46.958 : o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-04-14 10:33:46.964 : o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-04-14 10:33:47.197 :      o.q.i.StdSchedulerFactory - Using default implementation for ThreadExecutor
+[INFO ] 2023-04-14 10:33:47.204 :    o.q.c.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2023-04-14 10:33:47.204 :          o.q.c.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+[INFO ] 2023-04-14 10:33:47.204 :              o.q.s.RAMJobStore - RAMJobStore initialized.
+[INFO ] 2023-04-14 10:33:47.205 :          o.q.c.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2023-04-14 10:33:47.205 :      o.q.i.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+[INFO ] 2023-04-14 10:33:47.205 :      o.q.i.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+[INFO ] 2023-04-14 10:33:47.205 :          o.q.c.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@180fb796
+[WARN ] 2023-04-14 10:33:47.252 : o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-04-14 10:33:47.473 :      o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-04-14 10:33:47.489 :    o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2023-04-14 10:33:47.490 :   o.s.s.q.SchedulerFactoryBean - Starting Quartz Scheduler now
+[INFO ] 2023-04-14 10:33:47.490 :          o.q.c.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+[INFO ] 2023-04-14 10:33:47.496 : c.a.e.EnergyCollectionApplication - Started EnergyCollectionApplication in 2.7 seconds (process running for 3.171)
+[INFO ] 2023-04-14 10:33:50.134 :            c.a.e.s.MeteringJob - <200 OK OK,SensorResponse(result=OK, message=-, _data_=ACSensor(id=0, LogicalId=logical-qhoznarsv9, CreatedTs=1.68143592E12, CreatedDate=2023-04-14 10:32:41, GroupId=1, ModuleId=0, PhaseVoltage=70.6618, LineVoltage=15.671558, VoltageCrestFactor=33.15501, PhaseCurrent=56.43871, CurrentCrestFactor=59.751812, ActivePower=30.570498, ReactivePower=57.70761, PowerFactor=32.17675, Frequency=67.94988, ThdPhaseVoltage=69.197075, ThdPhaseCurrent=16.326418, Temperature=2.4525597, VoltageHarmonics=42.116287, CurrentHarmonics=75.74377, ApparentPower=32.309902)),[X-Powered-By:"Express", Vary:"Origin, Accept-Encoding", Access-Control-Allow-Credentials:"true", Cache-Control:"no-cache", Pragma:"no-cache", Expires:"-1", X-Content-Type-Options:"nosniff", Content-Type:"application/json; charset=utf-8", Content-Length:"1084", ETag:"W/"43c-JHHJgEDa7LclUKPSx0gqHBZHq6Q"", Date:"Fri, 14 Apr 2023 01:33:50 GMT", Connection:"keep-alive", Keep-Alive:"timeout=5"]>
+[INFO ] 2023-04-14 10:33:50.134 :            c.a.e.s.MeteringJob - ACSensor(id=0, LogicalId=logical-qhoznarsv9, CreatedTs=1.68143592E12, CreatedDate=2023-04-14 10:32:41, GroupId=1, ModuleId=0, PhaseVoltage=70.6618, LineVoltage=15.671558, VoltageCrestFactor=33.15501, PhaseCurrent=56.43871, CurrentCrestFactor=59.751812, ActivePower=30.570498, ReactivePower=57.70761, PowerFactor=32.17675, Frequency=67.94988, ThdPhaseVoltage=69.197075, ThdPhaseCurrent=16.326418, Temperature=2.4525597, VoltageHarmonics=42.116287, CurrentHarmonics=75.74377, ApparentPower=32.309902)
+[DEBUG] 2023-04-14 10:33:50.147 :                        o.h.SQL - 
+    select
+        next value for acsensor_seq
+[DEBUG] 2023-04-14 10:33:50.162 :                        o.h.SQL - 
+    insert 
+    into
+        acsensor
+        (active_power, apparent_power, created_date, created_ts, current_crest_factor, current_harmonics, frequency, group_id, line_voltage, logical_id, module_id, phase_current, phase_voltage, power_factor, reactive_power, temperature, thd_phase_current, thd_phase_voltage, voltage_crest_factor, voltage_harmonics, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[INFO ] 2023-04-14 10:34:00.015 :            c.a.e.s.MeteringJob - <200 OK OK,SensorResponse(result=OK, message=-, _data_=ACSensor(id=0, LogicalId=logical-qhoznarsv9, CreatedTs=1.68143592E12, CreatedDate=2023-04-14 10:32:41, GroupId=1, ModuleId=0, PhaseVoltage=70.6618, LineVoltage=15.671558, VoltageCrestFactor=33.15501, PhaseCurrent=56.43871, CurrentCrestFactor=59.751812, ActivePower=30.570498, ReactivePower=57.70761, PowerFactor=32.17675, Frequency=67.94988, ThdPhaseVoltage=69.197075, ThdPhaseCurrent=16.326418, Temperature=2.4525597, VoltageHarmonics=42.116287, CurrentHarmonics=75.74377, ApparentPower=32.309902)),[X-Powered-By:"Express", Vary:"Origin, Accept-Encoding", Access-Control-Allow-Credentials:"true", Cache-Control:"no-cache", Pragma:"no-cache", Expires:"-1", X-Content-Type-Options:"nosniff", Content-Type:"application/json; charset=utf-8", Content-Length:"1084", ETag:"W/"43c-JHHJgEDa7LclUKPSx0gqHBZHq6Q"", Date:"Fri, 14 Apr 2023 01:34:00 GMT", Connection:"keep-alive", Keep-Alive:"timeout=5"]>
+[INFO ] 2023-04-14 10:34:00.016 :            c.a.e.s.MeteringJob - ACSensor(id=0, LogicalId=logical-qhoznarsv9, CreatedTs=1.68143592E12, CreatedDate=2023-04-14 10:32:41, GroupId=1, ModuleId=0, PhaseVoltage=70.6618, LineVoltage=15.671558, VoltageCrestFactor=33.15501, PhaseCurrent=56.43871, CurrentCrestFactor=59.751812, ActivePower=30.570498, ReactivePower=57.70761, PowerFactor=32.17675, Frequency=67.94988, ThdPhaseVoltage=69.197075, ThdPhaseCurrent=16.326418, Temperature=2.4525597, VoltageHarmonics=42.116287, CurrentHarmonics=75.74377, ApparentPower=32.309902)
+[DEBUG] 2023-04-14 10:34:00.020 :                        o.h.SQL - 
+    insert 
+    into
+        acsensor
+        (active_power, apparent_power, created_date, created_ts, current_crest_factor, current_harmonics, frequency, group_id, line_voltage, logical_id, module_id, phase_current, phase_voltage, power_factor, reactive_power, temperature, thd_phase_current, thd_phase_voltage, voltage_crest_factor, voltage_harmonics, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[INFO ] 2023-04-14 10:34:05.786 : o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 2023-04-14 10:34:05.788 :          o.q.c.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2023-04-14 10:34:05.796 :      o.a.c.h.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-04-14 10:34:05.796 :        o.a.c.c.StandardService - Stopping service [Tomcat]
+[INFO ] 2023-04-14 10:34:05.799 :      o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-04-14 10:34:05.801 :      o.a.c.h.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[INFO ] 2023-04-14 10:34:05.802 :   o.s.s.q.SchedulerFactoryBean - Shutting down Quartz Scheduler
+[INFO ] 2023-04-14 10:34:05.803 :          o.q.c.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[INFO ] 2023-04-14 10:34:05.803 :          o.q.c.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[INFO ] 2023-04-14 10:34:05.803 :          o.q.c.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[INFO ] 2023-04-14 10:34:05.803 : o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-04-14 10:34:05.804 :         c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-04-14 10:34:05.807 :         c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
